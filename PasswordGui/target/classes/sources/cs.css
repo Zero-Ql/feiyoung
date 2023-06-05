@@ -1,0 +1,22 @@
+/*#stack-pane{*/
+/*    !*-fx-background-image: url("/Image/1.jpeg");*!*/
+/*    -fx-background-repeat: no-repeat;*/
+/*    -fx-background-size: 500 500;*/
+/*    -fx-background-position: center center;*/
+/*}*/
+.button{
+    /*-fx-text-fill: #f39c14;//设置字体颜色*/
+    -fx-background-color: #00FFFF20;//设置背景颜色及不透明度
+    -fx-background-radius: 20;//设置圆角
+}
+.text-field{
+    -fx-background-color:#80808010;
+    -fx-background-radius: 20;
+}
+@font-face {
+    font-family: "MyFont";
+    src: url("/zt.ttf");
+}
+.root{
+    -fx-font-family: "MyFont";
+}
